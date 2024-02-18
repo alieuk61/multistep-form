@@ -1,0 +1,10 @@
+step three:
+I want to click on a button, if i click on that button, we will get the button (which is a number from the array) and we will use that number to get the information of the button inside an object which have keys e.g. object[div] (the same numbers as div) that contain those information
+with whatever information i get, i will put it in an object and save it to an array, if that button information is already in the array and we click the button, i want that object removed
+
+step four: display all the things in the total basket to page four
+
+after clicking confirm, we just display the confirm page
+
+dynamic button: 
+when we click the button, we will change the state from monthly to yearly, if monthlywe will keeo the monthly prices and msg showing otherwise we show the yearly ones
