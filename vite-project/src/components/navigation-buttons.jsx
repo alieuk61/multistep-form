@@ -16,7 +16,7 @@ export default function NavigationButtons({ handleNextStep }){
     return(
         <div className={`flex ${pageNumber == 1 || pageNumber == 4 ? 'justify-end' : 'justify-between'} `}>
             {pageNumber > 1 && <button onClick={() => {setPageNumber(prevPage => prevPage-1)}} className="bg-white text-Light-gray rounded-lg py-[16px] px-[24px]">Go Back</button>} 
-            <button onClick={handleNextStepClick} className="bg-Marine-blue text-white rounded-lg py-[16px] px-[24px]">Next Step!</button> {/*change on page four to confirm or something*/}
+            <button onClick={handleNextStepClick} type='submit' className="bg-Marine-blue text-white rounded-lg py-[16px] px-[24px]">Next Step!</button> {/*change on page four to confirm or something*/}
             {/* button for finishing only on page four */}
         </div>
     )

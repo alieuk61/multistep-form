@@ -6,3 +6,7 @@
     background-color: #F0F6FF;
     border-color: #473DFF;
 }
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
